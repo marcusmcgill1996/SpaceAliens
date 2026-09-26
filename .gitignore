@@ -1,0 +1,55 @@
+# Unity generated folders
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Visual Studio / IDE files
+.vs/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.opendb
+*.VC.db
+
+# Unity Version Control / Plastic metadata
+.plastic/
+ignore.conf
+
+# Debug / generated files
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Built packages
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Local Visual Studio / upgrade files
+.vsconfig
+UpgradeLog.htm
+
+# Unity template/demo content we don't need in source control
+/Assets/TextMesh Pro/Examples & Extras/
+/Assets/TextMesh Pro/Examples & Extras.meta
+/Assets/Welcome/
+/Assets/Welcome.meta
