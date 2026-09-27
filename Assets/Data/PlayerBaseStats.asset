@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bb394f5ef7f7514581da0ac36b9c974, type: 3}
+  m_Name: PlayerBaseStats
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerBaseStats
+  maxHealth: 100
+  damage: 10
+  moveSpeed: 5
+  fireRate: 1
+  projectileSpeed: 5
+  range: 6
+  pickupRadius: 1.5
+  maxHealthGrowth: 0.1
+  damageGrowth: 0.1
+  moveSpeedGrowth: 0.1
+  fireRateGrowth: 0.1
+  projectileSpeedGrowth: 0.1
+  rangeGrowth: 0.1
+  pickupRadiusGrowth: 0.1
