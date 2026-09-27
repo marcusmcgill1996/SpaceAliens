@@ -41,9 +41,6 @@ public class PlayerHealth : MonoBehaviour
 
     private void Die()
     {
-        Debug.Log("Player died. Enemies destroyed: " + GameManager.Instance.enemiesDestroyed);
-
-        // Temporary: freeze the game. Step 3 replaces this with the Game Over scene.
-        Time.timeScale = 0f;
+        GameManager.Instance.EndRun();
     }
 }
